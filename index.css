@@ -380,3 +380,48 @@ body {
   margin: 0;
   padding: 0 10px;
 }
+
+@media (min-width:600px){
+
+.normalna,
+.obratna{
+  display:flex;
+  align-items:center;
+  gap:30px;
+  padding:0 30px;
+  box-sizing:border-box;
+}
+
+.tekst,
+.tekst2{
+  width:60%;
+  box-sizing:border-box;
+}
+
+.snimka,
+.snimka2{
+  width:40%;
+  box-sizing:border-box;
+}
+
+
+.obratna{
+  flex-direction: row-reverse;
+}
+}
+@media (max-width:599px){
+
+.normalna,
+.obratna{
+  display:flex;
+  flex-direction:column;
+}
+
+.tekst,
+.tekst2,
+.snimka,
+.snimka2{
+  width:100%;
+}
+
+}
