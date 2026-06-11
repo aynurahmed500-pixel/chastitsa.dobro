@@ -404,6 +404,9 @@ body {
   box-sizing:border-box;
 }
 
+  .normalna{
+    flex-direction:row;
+  }
 
 .obratna{
   flex-direction: row-reverse;
