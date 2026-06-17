@@ -93,7 +93,7 @@ nav {
     height: 50px;
 
     background: white;
-
+    justify-content: center;
     display: flex;
     align-items: center;
 
@@ -107,7 +107,7 @@ nav {
 
     font-size: 28px;
     cursor: pointer;
-    justify-content: center;
+    
     z-index: 2100;
   }
 
@@ -305,7 +305,7 @@ nav {
   position:relative;
 }
 
-.dolu h2{
+.dolu p{
   margin:0;
 }
 
